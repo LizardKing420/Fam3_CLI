@@ -12,8 +12,8 @@ A simple command-line interface (CLI) application to manage and generate files c
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/family-tree-cli.git
-    cd family-tree-cli
+    git clone https://github.com/LizardKing420/Fam3_CLI.git
+    cd Fam3_CLI
     ```
 
 2. Ensure you have Python 3 installed.
@@ -24,26 +24,26 @@ A simple command-line interface (CLI) application to manage and generate files c
 
 To add a person to the family tree:
 ```sh
-python family_tree.py add "John Doe" "1980-01-01"
+python Fam3_CLI.py add "Osama bin Laden" "1988-08-11"
 ```
 
 Optional: Include a death date:
 ```sh
-python family_tree.py add "John Doe" "1980-01-01" --death_date "2050-01-01"
+python Fam3_CLI.py add "Osama bin Laden" "1988-08-11" --death_date "2011-05-02"
 ```
 
 ### Save Family Tree
 
 To save the current family tree to a file:
 ```sh
-python family_tree.py save family_tree.json
+python Fam3_CLI.py save family_tree.json
 ```
 
 ### Load Family Tree
 
 To load a family tree from a file:
 ```sh
-python family_tree.py load family_tree.json
+python Fam3_CLI.py load family_tree.json
 ```
 
 ## License
